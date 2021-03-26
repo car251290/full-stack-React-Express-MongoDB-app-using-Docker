@@ -9,6 +9,8 @@ Each container is like an individual virtual machine stripped out of everything 
 ## Docker containers everywhere!
 Containerizing your app with Docker is as simple as creating a Dockerfile for each of your apps to first build an image, and then running each image to get your containers live.
 
+## Docker Compose
+You could run each individual container using the Dokerfiles. In our case we have 3 containers to manage, so we will use docker-compose instead. Compose is a tool for defining and running multi-container Docker applications.
 
 Containerize your Client
 To build our Client image you will be needing a Dockerfile. Let’s create one:
